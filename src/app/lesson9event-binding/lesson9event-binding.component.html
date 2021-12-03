@@ -1,0 +1,15 @@
+<p>lesson9event-binding </p>
+
+<!-- event binding -->
+
+
+<input type="text" (input)="onInput($event)">
+ <input
+  type="text"
+  (keyup)="onInput2($event)"
+  (blur)="onBlur(myInput.value)"
+  #myInput
+  >
+<input type="text" (keyup)="onInput2($event)">
+<!-- вывод строки инпута -->
+<p><strong>{{inputValue}}</strong></p>

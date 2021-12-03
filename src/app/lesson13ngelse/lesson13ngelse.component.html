@@ -1,0 +1,13 @@
+<p>lesson13ngelse works!</p>
+<button (click)="toggle = !toggle">Toggle</button>
+
+<!-- структурные директивы -->
+<!-- 1 вариант -->
+<p *ngIf="toggle" class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sed?</p>
+<p *ngIf="!toggle" class="red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, tenetur.</p>
+<!-- 2 вариант -->
+<p *ngIf="toggle; else Yellow" class="green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sed?</p>
+<ng-template #Yellow>
+  <p class="yellow">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, tenetur.</p>
+
+</ng-template>

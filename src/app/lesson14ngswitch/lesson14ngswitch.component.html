@@ -1,0 +1,10 @@
+<p>lesson14ngswitch works!</p>
+
+<button (click)="toggle = !toggle">Toggle</button>
+<button (click)="toggle = 111">111</button>
+
+<div [ngSwitch]="toggle">
+  <p *ngSwitchCase="true">Lorem ipsum dolor sit amet.</p>
+  <p *ngSwitchCase="false">Lorem ipsum sit dolor amet.</p>
+  <p *ngSwitchDefault="">Lorem ipsum</p>
+</div>
