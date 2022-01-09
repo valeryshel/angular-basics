@@ -11,6 +11,8 @@ import { Lesson12ngclassComponent } from './lesson12ngclass/lesson12ngclass.comp
 import { Lesson7InterpolationComponent } from './lesson7-interpolation/lesson7-interpolation.component';
 import { Lesson13ngelseComponent } from './lesson13ngelse/lesson13ngelse.component';
 import { Lesson14ngswitchComponent } from './lesson14ngswitch/lesson14ngswitch.component';
+import { Lesson15ngforComponent } from './lesson15ngfor/lesson15ngfor.component';
+import { Lesson16pipesComponent } from './lesson16pipes/lesson16pipes.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { Lesson14ngswitchComponent } from './lesson14ngswitch/lesson14ngswitch.c
     Lesson12ngclassComponent,
     Lesson13ngelseComponent,
     Lesson14ngswitchComponent,
+    Lesson15ngforComponent,
+    Lesson16pipesComponent,
   ],
   imports: [
     BrowserModule,
